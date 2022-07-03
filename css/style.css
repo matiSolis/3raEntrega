@@ -33,6 +33,18 @@
   flex-direction: column;
   align-items: center; }
 
+.main__btn {
+  display: grid;
+  margin: 50px;
+  padding: 10px;
+  justify-content: center; }
+  .main__btn a {
+    text-decoration: none;
+    color: antiquewhite; }
+    .main__btn a:hover {
+      font-weight: 1000;
+      color: #d3cf93; }
+
 .main__card {
   display: flex;
   flex-direction: column;
@@ -44,7 +56,7 @@
   background: -moz-linear-gradient(0deg, black 0%, #323030 100%);
   background: -webkit-linear-gradient(0deg, black 0%, #323030 100%);
   background: linear-gradient(0deg, black 0%, #323030 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#323030",GradientType=1); }
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#323030", GradientType=1); }
 
 .main__cardText {
   margin: 20px;
@@ -56,19 +68,6 @@
   margin: 50px;
   display: flex;
   justify-content: center; }
-
-.main__imgPortada {
-  display: grid;
-  max-width: 100%;
-  min-width: 320px;
-  margin: auto; }
-  .main__imgPortada img {
-    width: 100%; }
-
-.main__secciones {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
 
 .main__disco {
   display: flex;
@@ -85,10 +84,13 @@
   flex-direction: column;
   align-items: center; }
 
-.main__video {
-  margin: 20px;
-  position: relative;
-  overflow: hidden; }
+.main__imgPortada {
+  display: grid;
+  max-width: 100%;
+  min-width: 320px;
+  margin: auto; }
+  .main__imgPortada img {
+    width: 100%; }
 
 .main__portadaShows {
   margin-top: 40px;
@@ -96,23 +98,21 @@
   justify-content: center;
   border-radius: 10px; }
 
+.main__secciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 .main__showStyle {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 30px; }
 
-.main__btn {
-  display: grid;
-  margin: 50px;
-  padding: 10px;
-  justify-content: center; }
-  .main__btn a {
-    text-decoration: none;
-    color: antiquewhite; }
-    .main__btn a:hover {
-      font-weight: 1000;
-      color: #d3cf93; }
+.main__video {
+  margin: 20px;
+  position: relative;
+  overflow: hidden; }
 
 .footer {
   display: grid;
