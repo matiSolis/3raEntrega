@@ -173,4 +173,6 @@
   .main__portadaShows img {
     display: none; }
   .main__showStyle img {
-    display: none; } }
+    display: none; }
+  .main__carousel {
+    max-width: 100%; } }
