@@ -74,7 +74,8 @@
   color: white; }
 
 .main__carousel {
-  margin: 50px;
+  max-width: 60%;
+  margin: 0px auto;
   display: flex;
   justify-content: center; }
 
