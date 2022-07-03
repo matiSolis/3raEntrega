@@ -56,7 +56,7 @@
   margin: 0 auto;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -175,4 +175,6 @@
   .main__showStyle img {
     display: none; }
   .main__carousel {
-    max-width: 100%; } }
+    max-width: 100%; }
+  .main__card {
+    margin-top: 40px; } }
