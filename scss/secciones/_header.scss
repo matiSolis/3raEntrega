@@ -1,0 +1,13 @@
+.header{
+    &__btn{
+        a {
+            color: $colorFont !important;
+            &:hover,
+            &.active {
+                background-color: rgb(211, 207, 147);
+                border-radius: 8px;
+                color: $colorFooter !important;
+            }
+        }
+    }
+}

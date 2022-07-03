@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sitio oficial Toro! | lista de nuestros discos, sencillos y EP's. Reproductor online">
+    <meta name="keywords" content="discos, música, EP's, CD">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/300fb5c1b5.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://res.cloudinary.com/matisolis/image/upload/v1656385607/favicon_peozmp.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>TORO | Discografia</title>
+</head>
+
+<body class="body">
+    <header class="header" id="cabecera">
+        <nav class="navbar navbar-expand-lg" style="background-color: #2d3033;">
+            <div class="container-fluid justify-content-center">
+                <a class="navbar-brand" style="color: #faebd7;" href="../index.html">
+                    <img src="https://res.cloudinary.com/matisolis/image/upload/v1656385607/logoToroLargo_f2mmsn.jpg" alt="logo banda con nombre">
+                </a>
+                <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="header__btn nav-item mx-15">
+                            <a class="nav-link" style="color: #faebd7;" aria-current="page"
+                                href="../index.html">INICIO</a>
+                        </li>
+                        <li class="header__btn nav-item dropdown mx-15">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                BIOGRAFIA
+                            </a>
+                            <ul class="dropdown-menu" style="border-style: none; background-color: #2d3033;"
+                                aria-labelledby="navbarDropdownMenuLink">
+                                <!-- menu desplegable a las secciones de la biografia -->
+                                <li><a class="dropdown-item"
+                                        href="./biografia.html">TORO</a></li>
+                                <li><a class="dropdown-item"
+                                        href="./biografia.html#pancho">VOZ | Pancho</a></li>
+                                <li><a class="dropdown-item"
+                                        href="./biografia.html#pate">GUITARRA | Pate Haagen</a></li>
+                                <li><a class="dropdown-item"
+                                        href="./biografia.html#pipa">BATERIA | Pipa</a></li>
+                                <li><a class="dropdown-item"
+                                        href="./biografia.html#fer">BAJO | Fer Heis</a></li>
+                            </ul>
+                        <li class="header__btn header__btn nav-item mx-15">
+                            <a class="nav-link active" href="./discografia.html">DISCOGRAFIA</a>
+                        </li>
+                        <li class="header__btn nav-item mx-15">
+                            <a class="nav-link" href="./shows.html">SHOWS</a>
+                        </li>
+                        <li class="header__btn nav-item mx-15">
+                            <a class="nav-link" href="./galeria.html">GALERIA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main__disco">
+            <div class="main__caja">
+                <img src="https://res.cloudinary.com/matisolis/image/upload/v1656385607/proximoDisco_ry9bfc.jpg" alt="imagen coming soon">
+                <h3>PROXIMAMENTE</h3>
+                <p>En este momento nos encontramos en el estudio realizando nuestro segundo disco. Suscríbete para no perderte el lanzamiento!</p>
+                <input type="submit" value="Comprar">
+            </div>
+            <div class="main__caja">
+                <img src="https://res.cloudinary.com/matisolis/image/upload/v1656385607/proximoDisco_ry9bfc.jpg" alt="imagen coming soon">
+                <h3>PROXIMAMENTE</h3>
+                <p>En este momento nos encontramos en el estudio realizando nuestro segundo disco. Suscríbete para no perderte el lanzamiento!</p>
+                <input type="submit" value="Comprar">
+            </div>
+        </div>
+        <h3 class="main__subtitulo">ESCUCHA NUESTRO DISCO</h3>
+        <div class="main__secciones">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5tlVUpuSRJlxZgeP0108zO?utm_source=generator&theme=0" width="70%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+        <!-- Boton subir -->
+        <section class="main__btn">
+            <a href="#cabecera">VOLVER</a>
+        </section>
+    </main>
+    <footer class="footer">
+        <form action="#" method="GET">
+            <div class="footer__form">
+                <!-- Aca no se si va parrafo o un h4 por ejemplo, consultar (resuelto con <span>)-->
+                <span>Contacto</span>
+                <!-- no puedo separar el span del input sin poner br, br es la unica solucion que encontre (resuelto con flexbox) -->
+                <input type="text" style="text-align: center; border-radius: 10px;" placeholder="Nombre">
+                <input type="text" style="text-align: center; border-radius: 10px;" placeholder="E-mail">
+                <input type="submit" value="Enviar">
+            </div>
+            <div class="footer__form">
+                <span>Suscribite!</span>
+                <!-- no puedo separar el span del input sin poner br, br es la unica solucion que encontre (resuelto con flexbox) -->
+                <input type="text" style="text-align: center; border-radius: 10px;" placeholder="E-mail">
+                <input type="submit" style="text-align: center;" value="Suscribirme">
+            </div>
+        </form>
+        <ul class="footer__ul">
+            <li>
+                <a href="https://www.facebook.com/ToroRockReDuro" target="_blank">
+                    <!-- imagen logo -->
+                    <i class="fa-brands fa-facebook" style="color:antiquewhite"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/toro.rockreduro/" target="_blank">
+                    <i class="fa-brands fa-instagram" style="color:antiquewhite"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCMcBzTQOGD5X9hDs0kCLxjQ" target="_blank">
+                    <i class="fa-brands fa-youtube" style="color:antiquewhite"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://open.spotify.com/artist/5tlVUpuSRJlxZgeP0108zO?si=MTvRQztOQc2p8ARxT7vHeA"
+                    target="_blank">
+                    <i class="fa-brands fa-spotify" style="color:antiquewhite"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/toro_rockreduro" target="_blank">
+                    <i class="fa-brands fa-twitter" style="color:antiquewhite"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

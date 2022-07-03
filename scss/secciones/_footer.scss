@@ -1,0 +1,30 @@
+.footer{
+    display: grid;
+    height: 208px;
+    width: 100%;
+    background-color: $colorFooter;
+    &__form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $colorFooter;
+        input{
+            margin: 5px;
+        }
+        span{
+            margin: 10px;
+            padding: 5px;
+            color: $colorFont;
+            font-family: $tipoTitulos;
+        }
+    }
+    &__ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        background-color: $colorFooter;
+        li{
+            margin: 20px;
+        }
+    }
+}
